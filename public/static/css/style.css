@@ -1,0 +1,301 @@
+.faded-rose {
+    background-color: #E38B75 !important;
+}
+
+.faded-rose-text {
+    color: #E38B75 !important;
+}
+
+.honeysuckle {
+    background-color: #FCC875 !important;
+}
+
+.honeysuckle-text {
+    color: #FCC875 !important;
+}
+
+.warm-grey {
+    background-color: #BAA896 !important;
+}
+
+.warm-grey-text {
+    color: #BAA896 !important;
+}
+
+.putty {
+    background-color: #E6CCB5 !important;
+}
+
+.putty-text {
+    color: #E6CCB5 !important;
+}
+
+.steel {
+    background-color: #5A4E4D !important;
+}
+
+.steel-text {
+    color: #5A4E4D !important;
+}
+
+.pewter {
+    background-color: #7E675E !important;
+}
+
+.pewter-text {
+    color: #7E675E !important;
+}
+
+.blue-gray {
+    background-color: #8593AE !important;
+}
+
+.blue-gray-text {
+    color: #8593AE !important;
+}
+
+.blush {
+    background-color: #DDA288 !important;
+}
+
+.blush-text {
+    color: #DDA288 !important;
+}
+
+.font-architects-daughter {
+    font-family: 'Architects Daughter', cursive;
+}
+
+.font-changa-one {
+    font-family: 'Changa One', cursive;
+}
+
+.font-chewy {
+    font-family: 'Chewy', cursive;
+}
+
+.font-satisfy {
+    font-family: 'Satisfy', cursive;
+}
+
+.font-sigma-one {
+    font-family: 'Sigmar One', cursive;
+}
+
+.font-luckiest-guy {
+    font-family: 'Luckiest Guy', cursive;
+}
+
+.font-bubblegum-sans {
+    font-family: 'Bubblegum Sans', cursive;
+}
+
+.font-josefin-sans {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.font-varela-round {
+    font-family: 'Varela Round', sans-serif;
+}
+
+a .modal-a {
+    visibility: hidden !important;
+}
+
+.tabs .tab a {
+    font-size: large;
+    color: #7E675E !important;
+}
+
+.tabs .tab a:hover {
+    color: #DDA288 !important;
+}
+
+.tabs .tab a.active {
+    color: #DDA288 !important;
+}
+
+.tabs .indicator {
+    background-color: #DDA288 !important;
+}
+
+p {
+    font-family: 'Varela Round', sans-serif !important;
+    line-height: 150% !important;
+    color: #5A4E4D;
+}
+
+table {
+    margin-left: 10px;
+    width: 100%;
+    border-collapse: collapse !important;
+}
+
+td {
+    padding-top: .2em !important;
+    padding-bottom: .2em !important;
+}
+
+ul.list-ul {
+    list-style-type: circle !important;
+}
+
+ul li.list-li {
+    color: #5A4E4D !important;
+    font-family: 'Varela Round', sans-serif !important;
+}
+
+table.table-skill {
+    border-collapse: collapse !important;
+}
+
+.chip {
+    color: #5A4E4D !important;
+    font-family: 'Varela Round', sans-serif !important;
+}
+
+/* label color */
+.input-field label {
+    color: #5A4E4D;
+}
+/* label focus color */
+.input-field input[type=text]:focus + label {
+    color: #8593AE;
+}
+.input-field input[type=email]:focus + label {
+    color: #8593AE;
+}
+.input-field textarea[type=text]:focus + label {
+    color: #8593AE;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #8593AE;
+    box-shadow: 0 1px 0 0 #8593AE;
+}
+/* label underline focus color */
+.input-field input[type=email]:focus {
+    border-bottom: 1px solid #8593AE;
+    box-shadow: 0 1px 0 0 #8593AE;
+}
+.input-field textarea[type=text]:focus {
+    border-bottom: 1px solid #8593AE;
+    box-shadow: 0 1px 0 0 #8593AE;
+}
+/* valid color */
+.input-field input[type=text].valid {
+    border-bottom: 1px solid #5A4E4D;
+    box-shadow: 0 1px 0 0 #5A4E4D;
+}
+.input-field input[type=email].valid {
+    border-bottom: 1px solid #5A4E4D;
+    box-shadow: 0 1px 0 0 #5A4E4D;
+}
+.input-field textarea.valid {
+    border-bottom: 1px solid #5A4E4D !important;
+    box-shadow: 0 1px 0 0 #5A4E4D !important;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+    color: #8593AE;
+}
+
+.btn-submit:hover {
+    background-color: white !important;
+    border: 2px solid #8593AE;
+    color: #8593AE;
+}
+
+.flipper {
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+#basicinfo.active {
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+    transform: rotateY(360deg);
+}
+
+#academe.active {
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+    transform: rotateX(360deg);
+}
+
+#work.active {
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+    transform: rotateY(360deg);
+}
+
+#contact.active {
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+    transform: rotateX(360deg);
+}
+
+.box {
+    position: relative;
+    width: 80%;
+    padding: 5%;
+    margin: 0 auto;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+}
+
+.box:hover {
+    transition:
+}
+
+.box:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left:40%; /*postion from the left side of the frame (positive value move the tape right, negative moves it left)*/
+    top: -15px; /*position from the top of the frame (positive move it above the frame, negative below)*/
+    width: 20%; /*width of the tape*/
+    height: 25px; /*height of the tape*/
+    background-color: rgba(133,147,174,0.5);
+}
+
+.chip a {
+    color: #5A4E4D !important;
+    text-decoration: underline;
+}
+
+h6 a {
+    color: #5A4E4D !important;
+    text-decoration: underline;
+}
+
+.collapsible {
+    border-radius: 20px;
+    font-family: 'Varela Round', sans-serif !important;
+    line-height: 150% !important;
+    color: #5A4E4D;
+}
+
+.h-slider {
+    border-radius: 20px;
+    background-color: rgba(133,147,174,0.5);
+}
+
+.img-slider {
+    width: 300px;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.float-right-text {
+    float: right;
+}

@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Yutong Huang</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.css">
+    <link rel="stylesheet" href="/public/static/css/style.css">
+    <link rel="icon" href="/public/static/images/icon.png">
+    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Bubblegum+Sans|Changa+One|Chewy|Josefin+Sans|Luckiest+Guy|Satisfy|Sigmar+One|Varela+Round" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-route.js"> </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-resource.js"> </script>
+    <script
+            src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="/public/js/app.js"></script>
+    <script src="/public/js/controllers/homeController.js"></script>
+</head>
+<body ng-app="personalWebsite">
+    <!--modal-->
+
+    <!--side nav bar-->
+    <div class="row">
+        <div class="col s4">
+            <ul class="side-nav fixed blue-gray">
+                <br><br><br>
+                <div class="center-align">
+                    <li>
+                        <h4 class="white-text font-changa-one">Yutong Huang</h4>
+                        <h6 class="white-text">yh1@andrew.cmu.edu</h6>
+                        <h6 class="white-text">cmu.evelyn.huang@gmail.com</h6>
+                    </li>
+                    <br>
+                    <br>
+                    <img class="responsive-img" src="/public/static/images/yutong_footer.png" width="190" alt="Contact Person">
+                    <br>
+                    <h5 class="white-text font-changa-one">Find me on:</h5>
+                    <li>
+                        <a href="https://github.com/YutongHuangCMU" target="_blank"><img class="responsive-img" width="30" src="/public/static/images/github.png"></a>
+                        <a href="https://www.linkedin.com/in/yutong-huang-cmu/" target="_blank"><img class="responsive-img" width="30" src="/public/static/images/linkedin.png"></a>
+                        <a href="https://www.facebook.com/profile.php?id=100012638163827" target="_blank"><img class="responsive-img" width="30" src="/public/static/images/facebook.png"></a>
+                    </li>
+                </div>
+            </ul>
+        </div>
+        <div class="col s9 offset-s3">
+            <br><br>
+            <div class="row">
+                <ul class="tabs tabs-transparent">
+                    <li id="basicinfo-tab" class="tab"><a href="#basicinfo" class="active font-luckiest-guy"><i class="material-icons">info_outline</i>Basic Info</a></li>
+                    <li id="academe-tab" class="tab"><a href="#academe" class="font-luckiest-guy"><i class="material-icons">subject</i>Academe</a></li>
+                    <li id="work-tab" class="tab"><a href="#work" class="font-luckiest-guy"><i class="material-icons">work</i>Work</a></li>
+                    <!--<li id="life-tab" class="tab"><a href="#life" class="font-luckiest-guy"><i class="material-icons">album</i>Life</a></li>-->
+                    <li id="contact-tab" class="tab"><a href="#contact" class="font-luckiest-guy"><i class="material-icons">contacts</i>Contact</a></li>
+                </ul>
+            </div>
+            <div class="flipper">
+            <div id="basicinfo">
+                <br>
+                <div class="row">
+                    <div class="col s4">
+                        <div class="card white darken-1">
+                            <div class="card-content steel-text font-varela-round">
+                                <span class="card-title center">Basic Info</span>
+                                <div class="row center">
+                                    <img class="circle responsive-img center" width="150" src="/public/static/images/yutong_profile.jpg">
+                                    <table>
+                                        <tbody>
+                                        <tr>
+                                            <td>Name:</td>
+                                            <td>Yutong Huang</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Gender:</td>
+                                            <td>Female</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Nationality:</td>
+                                            <td>China</td>
+                                        </tr>
+                                        <tr>
+                                            <td>University:</td>
+                                            <td>Carnegie Mellon University</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Residence:</td>
+                                            <td>Pittsburgh, PA, US</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="card-action center">
+                                <a class="blush-text font-josefin-sans" href="https://drive.google.com/uc?export=download&id=0B97hqGgDQ-3TdUQ0cmtoM1ZseVk" target="_blank" download>Download Resume</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s8">
+                        <div class="col s10">
+                            <h4 class="blue-gray-text font-changa-one">A Quick Learner</h4>
+                            <p>I'm a quick learner who absorb knowledge and understanding not only from book and homework,
+                                also from details in life, communications with people, emotions, and practice.</p>
+                        </div>
+                        <div class="col s10 offset-s2">
+                            <h4 class="blue-gray-text font-changa-one">A Web Developer</h4>
+                            <p>I'm passionate for web development, both for front-end user experience design, and back-end algorithm optimization.
+                            My interests and curiosity has driven me try to be a good web developer in the future career.</p>
+                        </div>
+                        <div class="col s10">
+                            <h4 class="blue-gray-text font-changa-one">A Software Engineer</h4>
+                            <p>I've started learning coding since undergraduate. I've accumulated experiences of software development using C++,
+                                Java and Python during internships, also from academic projects.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <h4 class="blush-text font-changa-one">Skill Sets</h4>
+                    <div class="col s4 center">
+                        <img class="responsive-img" width="100" src="public/static/images/programming.png"><img>
+                        <h5 class="pewter-text font-changa-one">Programming</h5>
+                        <div class="chip">Java</div>
+                        <div class="chip">Python</div>
+                        <div class="chip">C++</div>
+                        <div class="chip">JavaScript</div>
+                        <div class="chip">Shell Scripting</div>
+                        <div class="chip">SQL</div>
+                    </div>
+                    <div class="col s4 center-align">
+                        <img class="responsive-img" width="100" src="public/static/images/web.png"><img>
+                        <h5 class="pewter-text font-changa-one">Web Design</h5>
+                        <div class="chip">Django</div>
+                        <div class="chip">Redis</div>
+                        <div class="chip">Node.js</div>
+                        <div class="chip">jQuery</div>
+                        <div class="chip">Ajax</div>
+                        <div class="chip">Angular JS</div>
+                    </div>
+                    <div class="col s4 center">
+                        <img class="responsive-img" width="100" src="public/static/images/database.png"><img>
+                        <h5 class="pewter-text font-changa-one">Database</h5>
+                        <div class="chip">MySQL</div>
+                        <div class="chip"> MongoDB</div>
+                        <div class="chip">Cassandra</div>
+                        <div class="chip">Neo4j</div>
+                        <div class="chip">Sqlite3</div>
+                        <div class="chip">PostgreSQL</div>
+                    </div>
+                </div>
+            </div>
+            <div id="academe">
+                <div class="row">
+                    <h4 class="blush-text font-changa-one">
+                        Education
+                    </h4>
+                    <div class="col s6">
+                        <h5 class="font-josefin-sans pewter-text">Carnegie Mellon University</h5>
+                        <h6 class="font-varela-round steel-text">Master of Information Systems Management - GPA: 3.73</h6><br>
+                        <h6 class="font-varela-round steel-text">Courses:</h6>
+                        <div class="chip"><a href="http://www.cs.cmu.edu/~./15-437/2016-fall/" target="_blank">Web Application Development</a></div>
+                        <div class="chip">Data Mining</div>
+                        <div class="chip">Data Structures for Application Programmers</div>
+                        <div class="chip"><a href="https://www.andrew.cmu.edu/course/95-702/" target="_blank">Distributed Systems</a></div>
+                        <div class="chip">Database Management</div>
+                        <div class="chip">NoSQL Database Management</div>
+                        <div class="chip">Python for Developers</div>
+
+                        <div class="chip">Text Analytics</div>
+                    </div>
+                    <div class="col s6">
+                        <div data-caption="The enrollment verification issued by CMU" class="box materialboxed">
+                            <img class="responsive-img" src="/public/static/images/enrollment.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <h4 class="blush-text font-changa-one">Academic Projects</h4>
+                    <div class="col s12">
+                        <ul class="collapsible popout" data-collapsible="accordion">
+                            <li>
+                                <div class="collapsible-header"><i class="material-icons">language</i>TinyURL Web Application</div>
+                                <div class="collapsible-body">
+                                    <h6 class="pewter-text font-varela-round bold-text">General:</h6>
+                                    <p>Personal project</p>
+                                    <h6 class="pewter-text font-varela-round bold-text">Description:</h6>
+                                    <p>• Developed a web application for URL shortening using MEAN Stack (MongoDB, Express, Angularjs, Node.js).</p>
+                                    <p>• Used Nginx to realize load balancing, used Docker to create iterative software development environment.</p>
+                                    <p>• Used Web Socket to realize real-time data analysis and demonstration.</p>
+                                    <h6 class="pewter-text font-varela-round bold-text">Keywords:</h6>
+                                    <div class="chip">AngularJS</div>
+                                    <div class="chip">Node.js</div>
+                                    <div class="chip">JavaScript</div>
+                                    <div class="chip">MongoDB</div>
+                                    <div class="chip"> Redis</div>
+                                    <div class="chip">Docker</div>
+                                    <div class="chip">Web Socket</div>
+                                    <div class="chip">REST API</div>
+                                    <h6 class="pewter-text font-varela-round bold-text">Demo:</h6>
+                                    <div class="video-container">
+                                        <iframe width="500" src="https://www.youtube.com/embed/J5U9ieb76us" frameborder="0" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header"><i class="material-icons">chat_bubble_outline</i>Hotpot Online Chatting Web Application</div>
+                                <div class="collapsible-body">
+                                    <h6 class="pewter-text font-varela-round bold-text">General:</h6>
+                                    <p>Group Project - Role: UI Designer & Front-end Engineer</p>
+                                    <h6 class="pewter-text font-varela-round bold-text">Description:</h6>
+                                    <p>• Designed and developed a web application for online group chatting, merchants navigating,
+                                        and time slot registration based on Django framework, HTML5 and CSS3.</p>
+                                    <p>• Used JavaScript, jQuery, Ajax to realize responsive website, used web socket to realize real-time group chatting.</p>
+                                    <p>• Deployed the web application on AWS.</p>
+                                    <h6 class="pewter-text font-varela-round bold-text">Keywords:</h6>
+                                    <div class="chip">jQuery</div>
+                                    <div class="chip">JavaScript</div>
+                                    <div class="chip">Python</div>
+                                    <div class="chip">Ajax</div>
+                                    <div class="chip">Django</div>
+                                    <div class="chip">AWS</div>
+                                    <div class="chip">Web Socket</div>
+                                    <!--<h6 class="pewter-text font-varela-round bold-text">Demo:</h6>-->
+                                    <!--<p>Coming Soon......</p>-->
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header"><i class="material-icons">perm_identity</i>Grumblr Social Networking Web Application</div>
+                                <div class="collapsible-body">
+                                    <h6 class="pewter-text font-varela-round bold-text">General:</h6>
+                                    <p>Personal Project</p>
+                                    <h6 class="pewter-text font-varela-round bold-text">Description:</h6>
+                                    <p>• Developed a web application for online social networking based on Django framework.</p>
+                                    <p>• Designed the web application using HTML5, CSS3 and Bootstrap.</p>
+                                    <p>• Used JavaScript, jQuery, Ajax to design and realize responsive website, also synchronize database, front-end
+                                        demonstration and user experience.</p>
+                                    <p>• Deployed the web application on Heroku.</p>
+                                    <h6 class="pewter-text font-varela-round bold-text">Keywords:</h6>
+                                    <div class="chip">jQuery</div>
+                                    <div class="chip">JavaScript</div>
+                                    <div class="chip">Python</div>
+                                    <div class="chip">Ajax</div>
+                                    <div class="chip">Django</div>
+                                    <div class="chip">Heroku</div>
+                                    <div class="chip">Web Socket</div>
+                                    <h6 class="pewter-text font-varela-round bold-text">Demo:</h6>
+                                    <div class="video-container">
+                                        <iframe width="500" src="https://www.youtube.com/embed/jvpSGHnYfO8" frameborder="0" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header"><i class="material-icons">android</i>Cosmetic Information Retrieval Android Application</div>
+                                <div class="collapsible-body">
+                                    <h6 class="pewter-text font-varela-round bold-text">General:</h6>
+                                    <p>Personal Project</p>
+                                    <h6 class="pewter-text font-varela-round">Description:</h6>
+                                    <p>• Designed and Developed a RESTful API using Java Servlet, deployed the web service on Heroku Cloud and used
+                                        MongoDB record web service logs.</p>
+                                    <p>• Constructed the Android application interacting with web service on Heroku Cloud.</p>
+                                    <p>• Designed and Developed an analysis web service to analyze logs and visualized data using dashboard.</p>
+                                    <h6 class="pewter-text font-varela-round">Keywords:</h6>
+                                    <div class="chip">Android</div>
+                                    <div class="chip">Java Servlet</div>
+                                    <div class="chip">REST API</div>
+                                    <div class="chip">MongoDB</div>
+                                    <div class="chip">Dashboard</div>
+                                    <div class="chip">Heroku</div>
+                                    <h6 class="pewter-text font-varela-round">Documentation:</h6>
+                                    <div class="row">
+                                        <div class="col s6 center">
+                                            <img class="responsive-img" width="30%" src="/public/static/images/document.png">
+                                            <h6 class="blush-text font-josefin-sans center">
+                                                <a href="https://drive.google.com/open?id=0B97hqGgDQ-3TSFdKY01xcldoWEE" target="_blank">See Documentation of Android APP and Web Service</a>
+                                            </h6>
+                                        </div>
+                                        <div class="col s6 center">
+                                            <img class="responsive-img" width="30%" src="/public/static/images/document.png">
+                                            <h6 class="blush-text font-josefin-sans center">
+                                                <a href="https://drive.google.com/open?id=0B97hqGgDQ-3TZDZmQ2UxZXBPdTQ" target="_blank">See Documentation of Data Analysis and Dashboard</a>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header"><i class="material-icons">business</i>Analysis on Social Media Data for Hire Heroes USA</div>
+                                <div class="collapsible-body">
+                                    <h6 class="pewter-text font-varela-round bold-text">General:</h6>
+                                    <p>Group Project - Role: Data Engineer & Poster Designer</p>
+                                    <h6 class="pewter-text font-varela-round bold-text">Description:</h6>
+                                    <p>• Participated and became finalist in Teradata Data Challenge 2016, Atlanta.</p>
+                                    <p>• Used weka to pre-process and analyze the classification, association and regression insights of social media data.</p>
+                                    <p>• Visualized and aggregates data using Tableau and IBM Waston.</p>
+                                    <h6 class="pewter-text font-varela-round bold-text">Keywords:</h6>
+                                    <div class="chip">Data Mining</div>
+                                    <div class="chip">Weka</div>
+                                    <div class="chip">Tableau</div>
+                                    <div class="chip">IBM Watson</div>
+                                    <div class="chip">Design</div>
+                                    <h6 class="pewter-text font-varela-round bold-text">Poster:</h6>
+                                    <img class="responsive-img" src="/public/static/images/poster.jpg">
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="work">
+                <h4 class="font-changa-one blush-text">Internship</h4>
+                <div class="row">
+                    <div class="col s6">
+                        <h5 class="font-josefin-sans pewter-text">Sony Corporation, Atsugi, Kanagawa, Japan</h5>
+                        <h6 class="font-varela-round steel-text"><i class="material-icons prefix">perm_identity</i>Software Engineer Intern, <i class="material-icons prefix">perm_contact_calendar</i> June 2016 — Aug 2016</h6><br>
+                        <h5 class="font-varela-round pewter-text">Responsibilities:</h5>
+                        <p>• Developed video editing software Catalyst Edit based on OpenFX, written in C++.
+                        <p>• Developed plug-in for vision analysis based on Google Vision API for Catalyst Edit.</p>
+                        <p>• Designed and constructed plug-in for object recognition of videos based on YOLO technology for Catalyst Edit.</p>
+                        <h5 class="font-varela-round pewter-text">Keywords:</h5>
+                        <div class="chip">SONY</div>
+                        <div class="chip">C++</div>
+                        <div class="chip">Software Engineer</div>
+                        <div class="chip">Catalyst Edit</div>
+                        <div class="chip">Python</div>
+                        <div class="chip">OpenFX</div>
+                        <div class="chip">Google Vision API</div>
+                        <div class="chip">YOLO</div>
+                    </div>
+                    <div class="col s6">
+                        <div data-caption="The certificate of internship issued by SONY" class="box materialboxed">
+                            <img class="responsive-img" src="/public/static/images/certificate.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s5">
+                        <h5 class="font-varela-round pewter-text">Reviews & Recommendations:</h5>
+                        <br>
+                        <div class="box">
+                            <img class="responsive-img" src="/public/static/images/recommendation.jpg">
+                        </div>
+                        <h6 class="center font-varela-round pewter-text"><a href="https://drive.google.com/open?id=0B97hqGgDQ-3TRTdzdWRVVkY0Wnc" target="_blank">View Details</a></h6>
+                    </div>
+                    <div class="col s6">
+                        <br><br><br>
+                        <p>"She is a quick learner and excellent at learning new programming languages, software architectures,
+                            and setting up the development environment. She also has deep insights to the potential problem and
+                            sharp inspiration of countermeasure."</p>
+                        <p>"She is born with leadership skills, high ability to adapt to the quick changing situation or environment,
+                            and strong communication skills."</p>
+                        <h6 class="font-varela-round pewter-text float-right-text">-- Hisatsugu Kitajima (General Manager)</h6>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s8">
+                        <h5 class="font-varela-round pewter-text">Interesting Things:</h5>
+                        <h6 class="font-varela-round pewter-text">Video Demoed on Final Presentation of Internship:</h6>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/R84AoeCIsRE" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="col s3">
+                        <br><br><br>
+                        <p>This is a video that I've made for and demoed on my final presentation for the internship.
+                            It tells the story between me and SONY, and records my three-month experience in Japan.</p>
+                        <p>I want to say "thank you" to all the people I've met during my internship, and save this
+                            precious experience through this video.</p>
+                    </div>
+                </div>
+            </div>
+            <!--<div id="life">-->
+
+            <!--</div>-->
+            <div id="contact" ng-controller="homeController">
+                <div class="row">
+                    <div class="col s6">
+                        <h4 class="blush-text font-changa-one">Get In Touch</h4>
+                        <p>Thank you for visiting my personal website! Hope you've enjoy the navigation here.
+                        I'll keep going forward on the way of being a good web developer and software engineer, hope there will be more surprises when you come back!</p>
+                        <p>If you have any interests or questions, please find my contact information as below: </p>
+                        <ul>
+                            <li><p><i class="material-icons prefix">room</i>4716 Ellsworth Avenue APT 805, Pittsburgh, PA, 15213</p></li>
+                            <li><p><i class="material-icons prefix">phonelink_ring</i>+1 412 520 5750</p></li>
+                            <li><p><i class="material-icons prefix">email</i>yh1@andrew.cmu.edu / cmu.evelyn.huang@gmail.com</p></li>
+                        </ul>
+                    </div>
+                    <div class="col s6">
+                        <h4 class="blush-text font-changa-one">Contact Form</h4>
+                        <form class="font-varela-round steel-text" ng-submit="submit()" ng-show="showForm">
+                            <div class="input-field col s11">
+                                <i class="material-icons prefix">account_circle</i>
+                                <input id="last_name" type="text" class="validate" ng-model="name">
+                                <label for="last_name">Full Name</label>
+                            </div>
+                            <div class="input-field col s11">
+                                <i class="material-icons prefix">email</i>
+                                <input id="email" type="email" class="validate" ng-model="email">
+                                <label for="email">Email</label>
+                            </div>
+                            <div class="input-field col s11">
+                                <i class="material-icons prefix">chat_bubble</i>
+                                <textarea id="textarea1" class="materialize-textarea" type="text" data-length="120" ng-model="message"></textarea>
+                                <label for="textarea1">Message</label>
+                            </div>
+                            <div class="col s11 right-align">
+                                <button class="btn waves-effect waves-light blue-gray btn-submit" type="submit" name="action">Submit
+                                    <i class="material-icons right">send</i>
+                                </button>
+                            </div>
+                        </form>
+                        <p ng-show="showMessage">
+                            I've received your message! Thank you for contacting!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <a id="btn-modal" class="modal-a" href="#modal1"></a>
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <h4 class="font-changa-one blush-text center">Welcome!</h4>
+            <p class="steel-text font-varela-round">Hi there, welcome to Yutong's personal website! Here you can get more details about who Yutong is.
+                Hope you will enjoy your navigation here! If you have any further interests or questions, please contact me using the contact info under "CONTACT" section,
+                or leave your message there!</p>
+        </div>
+        <div class="row center">
+            <a href="" class="center modal-action modal-close waves-effect waves-green btn-large btn-flat font-changa-one pewter-text">Start</a>
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.modal').modal();
+        $('#btn-modal').click();
+        $('#basicinfo-tab').on('active', function () {
+            $('#basicinfo').toggleClass('active');
+        });
+        $('#contact-tab').on('active', function () {
+            $('#contact').toggleClass('active');
+        });
+        $(document).ready(function(){
+            $('.carousel').carousel();
+            $('.pagination').materializePagination({
+                align: 'center',
+                lastPage:  3,
+                firstPage:  1,
+                useUrlParameter: false
+            });
+        });
+
+    });
+</script>
+</html>
